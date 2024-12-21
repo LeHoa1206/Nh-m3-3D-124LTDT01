@@ -2,3 +2,13 @@
 plugins {
     alias(libs.plugins.android.application) apply false
 }
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Thêm classpath để sử dụng Google Services plugin
+        classpath("com.google.gms:google-services:4.4.2")
+    }
+}
