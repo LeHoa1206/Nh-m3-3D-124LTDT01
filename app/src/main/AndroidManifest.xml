@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.nhom13_3d_124ltad01">
-
-    <!-- Thêm quyền để truy cập bộ nhớ và internet -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-=======
     xmlns:tools="http://schemas.android.com/tools">
->>>>>>> 1646bbd20e3ada237d73e89154f62f3539f320f9
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -21,27 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nhom13_3D_124LTAD01"
         tools:targetApi="31">
-
-        <!-- Main Activity thay bằng Upanh -->
         <activity
-<<<<<<< HEAD
-            android:name=".upanh"
-=======
-<<<<<<< HEAD
-            android:name="com.example.nhom13_3d_124ltad01.MainActivity"
-=======
             android:name=".AddUserActivity"
->>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
->>>>>>> 1646bbd20e3ada237d73e89154f62f3539f320f9
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Khai báo MainActivity (nếu cần sử dụng sau này) -->
-
-
     </application>
+
 </manifest>

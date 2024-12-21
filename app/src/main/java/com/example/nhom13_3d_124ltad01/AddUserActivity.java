@@ -36,11 +36,11 @@ public class AddUserActivity extends AppCompatActivity {
         dangKy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AddUser(String.valueOf(image),String.valueOf(class_name),String.valueOf(student_id),String.valueOf(image),String.valueOf(group_name));
+
             }
         });
 
-
+        
 
 
     }
