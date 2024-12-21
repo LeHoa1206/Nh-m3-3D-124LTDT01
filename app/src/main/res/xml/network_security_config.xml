@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
+<<<<<<< HEAD
         <domain includeSubdomains="true">172.20.10.4</domain>
+=======
+<<<<<<< HEAD
+        <domain includeSubdomains="true">172.20.10.4</domain>
+=======
+        <domain includeSubdomains="true">172.20.10.51</domain>
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
+>>>>>>> 1646bbd20e3ada237d73e89154f62f3539f320f9
     </domain-config>
 </network-security-config>
