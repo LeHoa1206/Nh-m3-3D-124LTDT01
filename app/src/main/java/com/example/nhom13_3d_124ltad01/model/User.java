@@ -8,7 +8,11 @@ public class User {
     private String image;
     private String groupName;
 
+<<<<<<< HEAD
     // Constructor
+=======
+    // Constructor, getters và setters
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
     public User(int id, String name, String className, String studentId, String image, String groupName) {
         this.id = id;
         this.name = name;
@@ -18,43 +22,59 @@ public class User {
         this.groupName = groupName;
     }
 
+<<<<<<< HEAD
     // Getter và Setter
+=======
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
     public int getId() {
         return id;
     }
 
+<<<<<<< HEAD
     public void setId(int id) {
         this.id = id;
     }
 
+=======
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
     public String getName() {
         return name;
     }
 
+<<<<<<< HEAD
     public void setName(String name) {
         this.name = name;
     }
 
+=======
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
     public String getClassName() {
         return className;
     }
 
+<<<<<<< HEAD
     public void setClassName(String className) {
         this.className = className;
     }
 
+=======
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
     public String getStudentId() {
         return studentId;
     }
 
+<<<<<<< HEAD
     public void setStudentId(String studentId) {
         this.studentId = studentId;
     }
 
+=======
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
     public String getImage() {
         return image;
     }
 
+<<<<<<< HEAD
     public void setImage(String image) {
         this.image = image;
     }
@@ -66,4 +86,9 @@ public class User {
     public void setGroupName(String groupName) {
         this.groupName = groupName;
     }
+=======
+    public String getGroupName() {
+        return groupName;
+    }
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
 }

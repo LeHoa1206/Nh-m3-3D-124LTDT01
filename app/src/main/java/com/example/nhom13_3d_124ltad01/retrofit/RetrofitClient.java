@@ -7,6 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitClient {
 
     private static Retrofit retrofit;
+<<<<<<< HEAD
     private static final String BARE_URL = "http://172.20.10.4/baitapnhom/";  // Thay bằng URL API của bạn
 
     public static Retrofit getInstance() {
@@ -15,8 +16,23 @@ public class RetrofitClient {
                     .baseUrl(BARE_URL)  // URL gốc của API
                     .addConverterFactory(GsonConverterFactory.create())  // Converter cho JSON (Gson)
                     .addCallAdapterFactory(RxJava3CallAdapterFactory.create())  // RxJava call adapter (tuỳ chọn, dùng nếu cần)
+=======
+    private static String BARE_URL = "http://172.20.10.5:8888/baitapnhom/";  // Thay bằng URL API của bạn
+
+    public static Retrofit getInstance(String baseUrl) {
+        if (retrofit == null) {
+            retrofit = new Retrofit.Builder()
+                    .baseUrl(BARE_URL)
+                    .addConverterFactory(GsonConverterFactory.create())  // Gson converter to parse JSON
+                    .addCallAdapterFactory(RxJava3CallAdapterFactory.create())  // Add RxJava3 call adapter
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
                     .build();
         }
         return retrofit;
     }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 10ed0db8108920e810b42f965f0b49d2cb1a2f8f
 }
